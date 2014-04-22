@@ -1,0 +1,23 @@
+{
+  "name": "npm-download",
+  "description": "Download an npm module to a folder.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "github-utils/npm-download",
+  "dependencies": {
+    "debug": "*"
+  },
+  "devDependencies": {
+    "co": "^3.0.0",
+    "mocha": "^1.17"
+  },
+  "scripts": {
+    "test": "mocha --harmony-generators --reporter spec --bail"
+  }
+}
