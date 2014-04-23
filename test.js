@@ -3,7 +3,7 @@ var fs = require('fs')
 var co = require('co')
 var assert = require('assert')
 
-var download = require('.')
+var download = require('.')()
 
 it('should download domify@1.2.2', co(function* () {
   var folder = process.cwd() + '/components'
